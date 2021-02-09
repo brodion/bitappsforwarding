@@ -1,0 +1,25 @@
+{
+    "name": "skytraffic/bitappsforwarding",
+    "description": "BitApps Forwarding API",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "brodion",
+            "email": "rodion@skytraffic.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Skytraffic\\BitApps\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skytraffic\\BitApps\\Test\\": "tests"
+        }
+    }
+}
